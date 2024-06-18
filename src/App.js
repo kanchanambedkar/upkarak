@@ -18,7 +18,6 @@ function App() {
     setChessArray(newArray);
   }, [boxSize]);
 
-  // console.log(chessArray, 'chessArray')
   // === dynamically change no of Ranks and Files of chess
   const handleChange = (e) => {
     setBoxSize(e.target.value);
