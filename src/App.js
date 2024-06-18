@@ -31,7 +31,7 @@ function App() {
         <h2 className="mb-4 fw-bolder">Chess Board</h2>
             <div className="form-group mb-3">
               <label className="fw-medium mb-1">
-                Please Enter no of Ranks and Files of the Chess Board (in px)
+                Please Enter no of columns for creating n*n squares of the Chess Board (in px)
               </label>
               <input
                 className="w-100 border-start-0 border-end-0 border-top-0"
